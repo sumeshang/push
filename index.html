@@ -25,6 +25,8 @@
           let sw = await navigator.serviceWorker.register('./sw.js');
           console.log(sw);
         });
+      } else {
+        alert('serveice worker is not supported')
       }
     </script>
   </body>
